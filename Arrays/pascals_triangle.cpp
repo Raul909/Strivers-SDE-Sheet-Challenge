@@ -15,6 +15,8 @@ vector<vector<long long int>> printPascal(int n)
   return r;
 }
 
+//Time Complexity --> 
+
 // print the nth row of the pascal's triangle
 vector<int>(rowIndex + 1, 0);
 

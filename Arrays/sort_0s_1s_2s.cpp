@@ -27,3 +27,7 @@ void sort012(int *arr, int n)
         }
     }
 }
+
+//Time complexity --> O(N) 
+
+/*In each operation either mid gets incremented or high gets decremented */
