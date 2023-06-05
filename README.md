@@ -11,8 +11,14 @@ Solve from here [link](https://takeuforward.org/interviews/strivers-sde-sheet-to
 
 -[Pascal's Triangle](Arrays/pascals_triangle.cpp)
 
--[Next Permutation]()
+-[Next Permutation](Arrays/)
 
--[Set Matrix Zeroes]()
+-[Set Matrix Zeroes](Arrays/)
 
 -[Kadane's Algorithm(Maximum Subarray Sum)](Arrays/kadanes_algorithm.cpp)
+
+-[Best Time to Buy and Sell Stock](Arrays/)
+
+
+## Arrays II:-
+-[Duplicate in Array](Arrays_II/find_duplicate_in_array.cpp)
