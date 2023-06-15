@@ -83,3 +83,7 @@ This will basically cover all the types of patterns asked in an interview or to 
 - [Subset Sum](Recursion/subset_sums.cpp)
 
 - [Subset II](Recursion/subset_II.cpp)
+
+- [Combination Sum](Recursion/combination_sum.cpp)
+
+- [Combination Sum II](Recursion/combination_sum_II.cpp)
