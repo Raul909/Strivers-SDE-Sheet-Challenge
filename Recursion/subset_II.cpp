@@ -2,41 +2,44 @@
 
 #include <bits/stdc++.h>
 
-void subset_II(vector<int> &nums, int index, vector<int> temp, set<vector<int>> &ans)
+void subset_II(int index, vector<int> &nums, vector<int> &ds, set<vector<int>> &ans)
 {
-    if (index == nums.size())
+    // base condition
+    if (index >= nums.size())
     {
-        sort(temp.begin(), temp.end());
-        ans.insert(temp);
+        // sort(ds.begin(),ds.end())
+        ans.insert(ds);
         return;
     }
 
     // pick condition
-    temp.push_back(nums[index]);
-    subset_II(nums, index + 1, temp, ans);
-    temp.pop_back();
+    ds.push_back(nums[index]);
+    subset_II(index + 1, nums, ds, ans);
+    ds.pop_back();
 
     // not pick condition
-    subset_II(nums, index + 1, temp, ans);
+    subset_II(index + 1, nums, ds, ans);
 }
 vector<vector<int>> uniqueSubsets(int n, vector<int> &arr)
 {
     // Write your code here.
-    vector<vector<int>> ans;
-    set<vector<int>> res;
-    vector<int> temp;
-    subset_II(arr, 0, temp, res);
+    vector<int> ds;
+    set<vector<int>> st;
 
-    for (auto it = res.begin(); it != res.end(); it++)
-    {
-        ans.push_back(*it);
-    }
+    sort(arr.begin(), arr.end());
 
-    return ans;
+    vector<vector<int>> res;
+
+    subset_II(0, arr, ds, st);
+
+    for (auto it : st)
+        res.push_back(it);
+
+    return res;
 }
 
 /*
-Time Complexity: O( 2^n *(k log (x) )).
+Time Complexity: O( 2^n).
  2^n  for generating every subset and k* log( x)  to insert every combination of average length k in a set of size x.
  After this, we have to convert the set of combinations back into a list of list /vector of vectors which takes more time.
 
@@ -103,6 +106,6 @@ public:
 Time Complexity: O(2^n) for generating every subset and O(k)  to insert every subset in
  another data structure if the average length of every subset is k. Overall O(k * 2^n).
 
-Space Complexity: O(2^n * k) to store every subset of average length k. Auxiliary space is O(n) 
+Space Complexity: O(2^n * k) to store every subset of average length k. Auxiliary space is O(n)
  if n is the depth of the recursion tree.
  */

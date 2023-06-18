@@ -87,3 +87,6 @@ This will basically cover all the types of patterns asked in an interview or to 
 - [Combination Sum](Recursion/combination_sum.cpp)
 
 - [Combination Sum II](Recursion/combination_sum_II.cpp)
+
+## Recursion and Backtracking :-
+- [N Queens](Recursion/n_queens.cpp)
