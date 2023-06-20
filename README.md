@@ -88,5 +88,17 @@ This will basically cover all the types of patterns asked in an interview or to 
 
 - [Combination Sum II](Recursion/combination_sum_II.cpp)
 
+- [Palindrome Partitioning](Recursion/palindrome_partitioning.cpp)
+
+- [Kth Permutation Sequence](Recursion)
+
 ## Recursion and Backtracking :-
 - [N Queens](Recursion/n_queens.cpp)
+
+- [Sudoku Solver](Recursion/sudoku_solver.cpp)
+
+- [M Colouring Problem](Recursion)
+
+- [Rat in a Maze ](Recursion/rat_in_maze.cpp)
+
+- [Word Break](Recursion)
