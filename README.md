@@ -25,36 +25,36 @@ This will basically cover all the types of patterns asked in an interview or to 
 
 
 ## Arrays II:-
-- [Rotate Matrix](Arrays_II/)
+- [Rotate Matrix](Arrays_II/rotate_matrix.cpp)
 
-- [Merge Overlapping SubIntervals](Arrays_II/)
+- [Merge Overlapping SubIntervals](Arrays_II/merge_overlapping_subintervals.cpp)
 
-- [Merge Two Sorted Arrays without using extra Space](Arrays_II/)
+- [Merge Two Sorted Arrays without using extra Space](Arrays_II/merge_arrays_without_extra_space.cpp)
 
 - [Duplicate in Array](Arrays_II/find_duplicate_in_array.cpp)
 
-- [Repeat and Missing Number](Arrays_II/)
+- [Repeat and Missing Number](Arrays_II/repeat_missing_number.cpp)
 
-- [Inversion of Array](Arrays_II/)
+- [Inversion of Array](Arrays_II/count_inversions.cpp)
 
 
 ## Arrays III:-
-- [Search in a 2D Matrix]()
+- [Search in a 2D Matrix](Arrays_III/search_2d_matrix.cpp)
 
-- [Pow(x,n)]()
+- [Pow(x,n)](Arrays_III/pow_x_n.cpp)
 
-- [Majority Elenents(>n/2 times)]()
+- [Majority Elenents(>n/2 times)](Arrays_III/majoritY_element.cpp)
 
-- [Majority Elenents(n/3 times)]()
+- [Majority Elenents(n/3 times)](Arrays_III/majority_element_II.cpp)
 
-- [Grid Unique Paths]()
+- [Grid Unique Paths](Arrays_III/grid_unique_paths.cpp)
 
-- [Reverse Pairs]()
+- [Reverse Pairs](Arrays_III/reverse_pairs.cpp)
 
 ## Arrays IV:-
 - [2 Sum Problem](Arrays_IV/two_sum.cpp)
 
-- [4 Sum Problem](Arrays_IV/)
+- [4 Sum Problem](Arrays_IV/4_sum.cpp)
 
 - [Longest Consecutive Sequence](Arrays_IV/)
 
@@ -90,7 +90,7 @@ This will basically cover all the types of patterns asked in an interview or to 
 
 - [Palindrome Partitioning](Recursion/palindrome_partitioning.cpp)
 
-- [Kth Permutation Sequence](Recursion)
+- [Kth Permutation Sequence](Recursion/kth_permutation_sequence.cpp)
 
 ## Recursion and Backtracking :-
 - [N Queens](Recursion/n_queens.cpp)
