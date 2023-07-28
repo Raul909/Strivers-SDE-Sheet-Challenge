@@ -66,11 +66,11 @@ This will basically cover all the types of patterns asked in an interview or to 
 
 
 ## Linked List:-
-- [Reverse a LinkedList](Linked_List/)
+- [Reverse a LinkedList](Linked_List/reverse_linked_list.cpp)
 
-- [Find the middle of LinkedList](Linked_List/)
+- [Find the middle of LinkedList](Linked_List/middle_of_linked_list.cpp)
 
-- [Merge two sorted Linked List (use method used in merge sort)](Linked_List/)
+- [Merge two sorted Linked List (use method used in merge sort)](Linked_List/merge_two_sorted_linked_list.cpp)
 
 - [Remove N-th node from back of LinkedList](Linked_List/)
 
