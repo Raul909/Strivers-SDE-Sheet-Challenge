@@ -56,7 +56,7 @@ This will basically cover all the types of patterns asked in an interview or to 
 
 - [4 Sum Problem](Arrays_IV/4_sum.cpp)
 
-- [Longest Consecutive Sequence](Arrays_IV/)
+- [Longest Consecutive Sequence](Arrays_IV)
 
 - [Largest Subarray with K sum](Arrays_IV/)
 
@@ -72,7 +72,7 @@ This will basically cover all the types of patterns asked in an interview or to 
 
 - [Merge two sorted Linked List (use method used in merge sort)](Linked_List/merge_two_sorted_linked_list.cpp)
 
-- [Remove N-th node from back of LinkedList](Linked_List/)
+- [Remove N-th node from back of LinkedList](Linked_List/remove_nth_node_from_end_of_list.cpp)
 
 - [Add two numbers as LinkedList](Linked_List/)
 

@@ -1,6 +1,31 @@
+// binary search  tree approach with T.C --> O(m + n)
 
-//optimal approach
+class Solution
+{
+public:
+    bool searchMatrix(vector<vector<int>> &matrix, int target)
+    {
+        int m = matrix.size();    // no of rows
+        int n = matrix[0].size(); // no of columns
 
+        int row = 0, col = n - 1;
+        while (row <= m - 1 && col >= 0)
+        {
+            int curr = matrix[row][col];
+
+            if (curr == target)
+                return true;
+            if (target > curr)
+                row++;
+            else
+                col--;
+        }
+        return false;
+    }
+};
+
+// optimal approach
+//T.C --> O(log(m * n))
 class Solution
 {
 public:
